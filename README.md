@@ -39,10 +39,7 @@ No necesitas instalar nada localmente. Todo se hará desde el entorno web de Dat
 2. Selecciona **Sing up for Free Edition**
 3. Regístrate con tu correo personal
 
-> 📸 **Pantallazo sugerido:**
-> Imagen mostrando el formulario de registro con el botón “Get Started for Free”.
-
-5. Una vez creada la cuenta, entra al workspace y verifica que tengas acceso al **SQL Editor** y a la sección de **Data Explorer**.
+![step_1](img/step_1.png)
 
 ---
 
@@ -53,7 +50,7 @@ No necesitas instalar nada localmente. Todo se hará desde el entorno web de Dat
 2. En el campo de URL, ingresa:
 
    ```bash
-   https://github.com/darkanita/hackhour-genie-fabric
+   https://github.com/dbcrewlatamstudygroup/workshop-genie
    ```
 
 3. Cambia el nombre local del repositorio a algo como:
@@ -64,8 +61,7 @@ No necesitas instalar nada localmente. Todo se hará desde el entorno web de Dat
 
 4. Haz clic en **Create**.
 
-> 📸 **Pantallazo sugerido:**
-> Imagen mostrando la opción “Add Repo” con la URL del repo pegada.
+![step_2](img/step_2.png)
 
 Una vez clonado, verás los archivos en tu entorno de trabajo. Solo usaremos la carpeta y notebooks relacionados con **Databricks (Genie y AI Gen)**.
 
@@ -81,7 +77,7 @@ Una vez clonado, verás los archivos en tu entorno de trabajo. Solo usaremos la 
   - Ubicación: predeterminada
   - Clic en **Create**
 
-> 📸 Pantallazo: ventana de creación del catálogo
+![step_3](img/step_3.png)
 
 ---
 
@@ -91,7 +87,7 @@ Una vez clonado, verás los archivos en tu entorno de trabajo. Solo usaremos la 
   - Nombre: `demo_v01`
   - Ruta de almacenamiento: automática
 
-> 📸 Pantallazo: formulario de creación de schema
+![step_4](img/step_4.png)
 
 ---
 
@@ -109,8 +105,6 @@ Una vez clonado, verás los archivos en tu entorno de trabajo. Solo usaremos la 
    ```sql
    SHOW TABLES IN ai_bi_workshop.demo_v01;
    ```
-
-> 📸 Pantallazo: listado de tablas en el catálogo
 
 ---
 
@@ -149,8 +143,6 @@ display(spark.sql("SELECT * FROM ai_bi_workshop.demo_v01.products LIMIT 5"))
 
 4. Observa cómo **Genie** genera dashboards interactivos y consultas SQL automáticamente.
 
-> 📸 Pantallazo: interfaz de Genie con consulta conversacional.
-
 ---
 
 ### 🔹 AI Gen: metadatos y tableros inteligentes
@@ -160,8 +152,6 @@ display(spark.sql("SELECT * FROM ai_bi_workshop.demo_v01.products LIMIT 5"))
 3. En la descripción automática sugerida por IA, haz clic en **Generate AI Summary**
 4. AI Gen analizará los datos y creará descripciones y metadatos enriquecidos.
 5. Usa estos datos para construir un tablero inteligente en Genie.
-
-> 📸 Pantallazo: vista de AI Gen generando descripciones.
 
 ---
 
@@ -188,4 +178,3 @@ Al finalizar el workshop habrás:
 ---
 
 ✨ ¡Ahora estás listo para explorar el poder del AI/BI en Databricks! ✨
-# workshop-genie
