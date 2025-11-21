@@ -1,0 +1,31 @@
+# Entornos
+.env
+.venv/
+venv/
+
+# OS (macOS)
+.DS_Store
+
+# Python cache (ya tienes reglas, estas complementan)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Herramientas / tests / notebooks
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+.tox/
+coverage/
+htmlcov/
+
+# Builds / paquetes
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# IDEs/editors
+.vscode/
+.idea/
