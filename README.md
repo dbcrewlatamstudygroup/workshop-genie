@@ -138,8 +138,12 @@ display(spark.sql("SELECT * FROM ai_bi_workshop.demo_v01.products LIMIT 5"))
 1. En el menú de Databricks, abre la aplicación **Genie**.
 2. Conecta tu **catalog/schema** (`ai_bi_workshop.demo_v01`).
 3. Haz preguntas como:
-   > “¿Cuál es el producto con mayor precio promedio?”
-   > “Muestra las ventas totales por región.”
+```
+¿Cuál es el producto con mayor precio promedio?
+```
+```
+“Muestra las ventas totales por región.”
+```
 
 ### 📊📉 Crea Dashboards
 
