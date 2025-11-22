@@ -145,37 +145,97 @@ display(spark.sql("SELECT * FROM ai_bi_workshop.demo_v01.products LIMIT 5"))
 
 #### Crea el dashboard y carga la data
 
-1. Selecciona la opción de Dashboards en le menú de la izquierda
+1. Selecciona la opción de `Dashboards` en le menú de la izquierda
 
 ![dash1](img/dash0.png)
 
-2. Da clic en Crear Dashboard en la parte superior derecha
+2. Da clic en `Crear Dashboard` en la parte superior derecha
 ![dash1](img/dash1.png)
 
 3. Ya creaste un nuevo dashboard!
 
 ![dash2](img/dash2.png)
 
-Primero cambia el título "New Dashboard" al nombre que tu quieras por ejemplo
+Primero cambia el título `New Dashboard` al nombre que tu quieras por ejemplo
 ```
 Análisis de ordenes y oportunidades
 ```
-Luego da clic en Data
+Luego da clic en `Data`
 
 
-4. Ahora vamos a cargar la data, para esto da clic en "+ Add data source"
+4. Ahora vamos a cargar la data, para esto da clic en `+ Add data source`
 ![dash3](img/dash3.png)
 
-5. Selecciona todas las tablas del catálogo que creamos en los pasos anteriores y da clic en "confirm"
+5. Selecciona todas las tablas del catálogo que creamos en los pasos anteriores y da clic en `confirm`
 ![dash4](img/dash4.png)
 
-6. Verás los datos en la parte izquierda y podrás crear nuevos conjuntos de datos o explorar los datos. Para iniciar a crear el tablero da clic en "Untitle page"
+6. Verás los datos en la parte izquierda y podrás crear nuevos conjuntos de datos o explorar los datos. Para iniciar a crear el tablero da clic en `Untitle page`
 ![dash5](img/dash5.png)
 
-7. Ya estás listo para empezar a crear visualizaciones, en la parte inferior encontrarás este menú mediante el cual crearas los diferentes objetos: títulos, gráficos, filtros, etc, iniciemos con el título de nuestro tablero dando clic el cuadro con la T. 
+#### Contruyamos el dashboard
+
+Ya estás listo para empezar a crear visualizaciones!!
+
+El propósito de este análisis será:
+- Entender comportamiento comercial
+- Evaluar desempeño por representante
+- Identificar oportunidades ganadas/perdidas
+- Analizar ventas históricas
+
+Nuestro resultado será algo así:
+![dash6](dashboard/final_result.png)
+
+En la parte inferior encontrarás este menú mediante el cual crearas los diferentes objetos: títulos, gráficos, filtros, etc.
 ![dash6](img/dash6.png)
 
+1. Iniciemos con el título de nuestro tablero dando `clic en el cuadro con la T`. 
+Tendrás un cuadro sombreado que indicará el lugar donde pondrás el título. Ubicalo en la parte superior
+![dash7](img/dash7.png)
 
+El título será 
+```
+Desempeño de ventas y oportunidades
+```
+Puedes añadir el logo que está en la carpeta dashboard/logo cargando la imagen
+![dash8](img/dash8.png)
+
+2. Ahora añade una visualización desde el menú de la parte inferior
+
+![dash9](img/dash9.png)
+
+Situala debajo del título. Tendras un cuadro donde hacer las preguntas en lenguaje natural y aparecerá también un panel a la derecha
+
+![dash10](img/dash10.png)
+
+Selecciona el dataset `orders`. En el cuadro de la gráfica puedes escribir lo que quieres graficar o utilizar las opciones sugeridas por Genie. En este caso selecciona `Total Order Amount`
+
+![dash11](img/dash11.png)
+
+Ajusta el tamaño de esta card, lo más pequeño que sea posible.
+
+2. Ahora añade otra visualización pero esta vez selecciona el dataset `oportunities`
+
+Esta vez vamos a escribir
+````
+Total oportunidades
+````
+Una vez nos muestre el valor da clic en aceptar.
+Pista: Debería ser 342
+
+Ajusta el tamaño y ubicala continua a la anterior.
+
+3. Añade otra visualización, selecciona el dataset `orders`
+y escribe 
+```
+Total ordenes
+```
+El resultado sería `15.54 k` recuerda dar clic en aceptar.
+
+Ajusta el tamaño y ubicala continua a la anterior.
+
+🎉 Este será nuestro primer checkpoint. Hasta aquí ya está construida la primera parte del dashboard. Ahora crearemos las gráficas
+
+4.
 ---
 
 ### 🔹 AI Gen: metadatos y tableros inteligentes
