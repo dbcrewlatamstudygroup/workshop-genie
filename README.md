@@ -36,7 +36,7 @@ No necesitas instalar nada localmente. Todo se hará desde el entorno web de Dat
 ## 🪄 Parte 1 – Crear tu cuenta en Databricks Free Edition
 
 1. Ingresa a 👉 [Databricks Free Edition](https://www.databricks.com/learn/free-edition)
-2. Selecciona **Sing up for Free Edition**
+2. Selecciona **Sign up for Free Edition**
 3. Regístrate con tu correo personal
 
 ![step_1](img/step_1.png)
@@ -142,14 +142,14 @@ display(spark.sql("SELECT * FROM ai_bi_workshop.demo_v01.products LIMIT 5"))
 ¿Cuál es el producto con mayor precio promedio?
 ```
 ```
-“Muestra las ventas totales por región.”
+Muestra las ventas totales por región.
 ```
 
 ### 📊📉 Crea Dashboards
 
 #### Crea el dashboard y carga la data
 
-1. Selecciona la opción de `Dashboards` en le menú de la izquierda
+1. Selecciona la opción de `Dashboards` en el menú de la izquierda
 
 ![dash1](img/dash0.png)
 
@@ -161,9 +161,9 @@ display(spark.sql("SELECT * FROM ai_bi_workshop.demo_v01.products LIMIT 5"))
 
 ![dash2](img/dash2.png)
 
-Primero cambia el título `New Dashboard` al nombre que tu quieras por ejemplo
+Primero cambia el título `New Dashboard` al nombre que tú quieras por ejemplo
 ```
-Análisis de ordenes y oportunidades
+Análisis de órdenes y oportunidades
 ```
 Luego da clic en `Data`
 
@@ -176,11 +176,11 @@ Luego da clic en `Data`
 
 ![dash4](img/dash4.png)
 
-6. Verás los datos en la parte izquierda y podrás crear nuevos conjuntos de datos o explorar los datos. Para iniciar a crear el tablero da clic en `Untitle page`
+6. Verás los datos en la parte izquierda y podrás crear nuevos conjuntos de datos o explorar los datos. Para iniciar a crear el tablero da clic en `Untitled page`
 
 ![dash5](img/dash5.png)
 
-#### Contruyamos el dashboard
+#### Construyamos el dashboard
 
 Ya estás listo para empezar a crear visualizaciones!!
 
@@ -194,12 +194,12 @@ Nuestro resultado será algo así:
 
 ![dash6](dashboard/final_result.png)
 
-En la parte inferior encontrarás este menú mediante el cual crearas los diferentes objetos: títulos, gráficos, filtros, etc.
+En la parte inferior encontrarás este menú mediante el cual crearás los diferentes objetos: títulos, gráficos, filtros, etc.
 
 ![dash6](img/dash6.png)
 
 1. Iniciemos con el título de nuestro tablero dando `clic en el cuadro con la T`. 
-Tendrás un cuadro sombreado que indicará el lugar donde pondrás el título. Ubicalo en la parte superior
+Tendrás un cuadro sombreado que indicará el lugar donde pondrás el título. Ubícalo en la parte superior
 
 ![dash7](img/dash7.png)
 
@@ -217,7 +217,7 @@ Primero creemos los KPI:
 
 ![dash9](img/dash9.png)
 
-Situala debajo del título. Tendras un cuadro donde hacer las preguntas en lenguaje natural y aparecerá también un panel a la derecha
+Sitúala debajo del título. Tendrás un cuadro donde hacer las preguntas en lenguaje natural y aparecerá también un panel a la derecha
 
 ![dash10](img/dash10.png)
 
@@ -237,33 +237,34 @@ Una vez nos muestre el valor da clic en `aceptar`.
 
 🤫 Pista: Debería ser 342
 
-Ajusta el tamaño y ubicala continua a la anterior.
+Ajusta el tamaño y ubícala junto a la anterior.
 
 3. Añade otra visualización, selecciona el dataset `orders`
-y escribe 
+y escribe
 ```
 Total ordenes
 ```
 El resultado sería `15.54 k` recuerda dar clic en `aceptar`.
 
-Ajusta el tamaño y ubicala continua a la anterior.
+Ajusta el tamaño y ubícala junto a la anterior.
 
 🎉 Este será nuestro primer checkpoint. Hasta aquí ya está construida la primera parte del dashboard. Ahora crearemos las gráficas
 
-4. Ahora vamos a crear las gráficas de línea. Ahora añade una visualización, situala debajo de los KPI.
+4. Ahora vamos a crear las gráficas de línea. Ahora añade una visualización, sitúala debajo de los KPI.
 selecciona el dataset `opportunities` y escribe:
 ```
-Oportunidades por mes en un gráfico de línea
+Oportunidades por mes en un grafico de linea
 ```
 
 ✨ Tips: 
-- Es importante indicar solo lo que quieres calcular (Ej: total ventas, oportunidades por año) porque será utilizado como título del gráfico. Evita frases que inicien con "quiero ver", "muestrame", "cuales fueron"
+- Es importante indicar solo lo que quieres calcular (Ej: total ventas, oportunidades por año) porque será utilizado como título del gráfico. Evita frases que inicien con "quiero ver", "muéstrame", "cuáles fueron"
 - Por defecto siempre realiza un gráfico de barras, si quieres un gráfico diferente debes indicarlo.
 
-Ajusta el tamaño y ubicalo debajo de los kpi
+Ajusta el tamaño y ubícalo debajo de los kpi.
 
-5. Ahora añade otra visualización, situala junto a la anterior
+5. Ahora añade otra visualización, sitúala junto a la anterior
 selecciona el dataset `orders` y escribe:
+
 ```
 ordenes por mes en un gráfico de línea
 ```
@@ -278,7 +279,7 @@ ordenes por vendedor
 
 Da clic en aceptar y ajusta el tamaño
 
-7. Crea la última visualización, ubicala al lado de la anterior, selecciona el dataset `opportunities` y escribe
+7. Crea la última visualización, ubícala al lado de la anterior, selecciona el dataset `opportunities` y escribe
 ```
 grafica de oportunidades por fase
 ```
