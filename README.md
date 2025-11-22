@@ -150,6 +150,7 @@ display(spark.sql("SELECT * FROM ai_bi_workshop.demo_v01.products LIMIT 5"))
 ![dash1](img/dash0.png)
 
 2. Da clic en `Crear Dashboard` en la parte superior derecha
+
 ![dash1](img/dash1.png)
 
 3. Ya creaste un nuevo dashboard!
@@ -164,12 +165,15 @@ Luego da clic en `Data`
 
 
 4. Ahora vamos a cargar la data, para esto da clic en `+ Add data source`
+
 ![dash3](img/dash3.png)
 
 5. Selecciona todas las tablas del catálogo que creamos en los pasos anteriores y da clic en `confirm`
+
 ![dash4](img/dash4.png)
 
 6. Verás los datos en la parte izquierda y podrás crear nuevos conjuntos de datos o explorar los datos. Para iniciar a crear el tablero da clic en `Untitle page`
+
 ![dash5](img/dash5.png)
 
 #### Contruyamos el dashboard
@@ -183,13 +187,16 @@ El propósito de este análisis será:
 - Analizar ventas históricas
 
 Nuestro resultado será algo así:
+
 ![dash6](dashboard/final_result.png)
 
 En la parte inferior encontrarás este menú mediante el cual crearas los diferentes objetos: títulos, gráficos, filtros, etc.
+
 ![dash6](img/dash6.png)
 
 1. Iniciemos con el título de nuestro tablero dando `clic en el cuadro con la T`. 
 Tendrás un cuadro sombreado que indicará el lugar donde pondrás el título. Ubicalo en la parte superior
+
 ![dash7](img/dash7.png)
 
 El título será 
@@ -197,6 +204,7 @@ El título será
 Desempeño de ventas y oportunidades
 ```
 Puedes añadir el logo que está en la carpeta dashboard/logo cargando la imagen
+
 ![dash8](img/dash8.png)
 
 Primero creemos los KPI:
@@ -273,9 +281,11 @@ grafica de oportunidades por fase
 Da clic en aceptar y ajusta el tamaño
 
 8. Si quieres personalizar algún gráfico, solo debes seleccionarlo y modificar las opciones que te aparecen en el panel de la izquierda.
+
 ![dash12](img/dash12.png)
 
 9. Cuando ya el tablero esté listo, solo debes dar clic en la parte superior derecha y publicarlo
+
 ![dash13](img/dash13.png)
 
 🎉 Felicitaciones!!! Has creado tu primer dashboard!
