@@ -141,7 +141,40 @@ display(spark.sql("SELECT * FROM ai_bi_workshop.demo_v01.products LIMIT 5"))
    > “¿Cuál es el producto con mayor precio promedio?”
    > “Muestra las ventas totales por región.”
 
-4. Observa cómo **Genie** genera dashboards interactivos y consultas SQL automáticamente.
+### 📊📉 Crea Dashboards
+
+#### Crea el dashboard y carga la data
+
+1. Selecciona la opción de Dashboards en le menú de la izquierda
+
+![dash1](img/dash0.png)
+
+2. Da clic en Crear Dashboard en la parte superior derecha
+![dash1](img/dash1.png)
+
+3. Ya creaste un nuevo dashboard!
+
+![dash2](img/dash2.png)
+
+Primero cambia el título "New Dashboard" al nombre que tu quieras por ejemplo
+```
+Análisis de ordenes y oportunidades
+```
+Luego da clic en Data
+
+
+4. Ahora vamos a cargar la data, para esto da clic en "+ Add data source"
+![dash3](img/dash3.png)
+
+5. Selecciona todas las tablas del catálogo que creamos en los pasos anteriores y da clic en "confirm"
+![dash4](img/dash4.png)
+
+6. Verás los datos en la parte izquierda y podrás crear nuevos conjuntos de datos o explorar los datos. Para iniciar a crear el tablero da clic en "Untitle page"
+![dash5](img/dash5.png)
+
+7. Ya estás listo para empezar a crear visualizaciones, en la parte inferior encontrarás este menú mediante el cual crearas los diferentes objetos: títulos, gráficos, filtros, etc, iniciemos con el título de nuestro tablero dando clic el cuadro con la T. 
+![dash6](img/dash6.png)
+
 
 ---
 
