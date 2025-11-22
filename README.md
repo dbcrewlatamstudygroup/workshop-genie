@@ -199,7 +199,9 @@ Desempeño de ventas y oportunidades
 Puedes añadir el logo que está en la carpeta dashboard/logo cargando la imagen
 ![dash8](img/dash8.png)
 
-2. Ahora añade una visualización desde el menú de la parte inferior
+Primero creemos los KPI:
+
+2. Añade una visualización desde el menú de la parte inferior
 
 ![dash9](img/dash9.png)
 
@@ -213,14 +215,15 @@ Selecciona el dataset `orders`. En el cuadro de la gráfica puedes escribir lo q
 
 Ajusta el tamaño de esta card, lo más pequeño que sea posible.
 
-2. Ahora añade otra visualización pero esta vez selecciona el dataset `oportunities`
+2. Ahora añade otra visualización pero esta vez selecciona el dataset `opportunities`
 
 Esta vez vamos a escribir
 ````
 Total oportunidades
 ````
-Una vez nos muestre el valor da clic en aceptar.
-Pista: Debería ser 342
+Una vez nos muestre el valor da clic en `aceptar`.
+
+🤫 Pista: Debería ser 342
 
 Ajusta el tamaño y ubicala continua a la anterior.
 
@@ -229,13 +232,54 @@ y escribe
 ```
 Total ordenes
 ```
-El resultado sería `15.54 k` recuerda dar clic en aceptar.
+El resultado sería `15.54 k` recuerda dar clic en `aceptar`.
 
 Ajusta el tamaño y ubicala continua a la anterior.
 
 🎉 Este será nuestro primer checkpoint. Hasta aquí ya está construida la primera parte del dashboard. Ahora crearemos las gráficas
 
-4.
+4. Ahora vamos a crear las gráficas de línea. Ahora añade una visualización, situala debajo de los KPI.
+selecciona el dataset `opportunities` y escribe:
+```
+Oportunidades por mes en un gráfico de línea
+```
+
+✨ Tips: 
+- Es importante indicar solo lo que quieres calcular (Ej: total ventas, oportunidades por año) porque será utilizado como título del gráfico. Evita frases que inicien con "quiero ver", "muestrame", "cuales fueron"
+- Por defecto siempre realiza un gráfico de barras, si quieres un gráfico diferente debes indicarlo.
+
+Ajusta el tamaño y ubicalo debajo de los kpi
+
+5. Ahora añade otra visualización, situala junto a la anterior
+selecciona el dataset `orders` y escribe:
+```
+ordenes por mes en un gráfico de línea
+```
+
+🎉 Hasta aquí el segundo Checkpoint. Ahora creemos las gráficas de barras
+
+6. Ahora añade otra visualización, debajo de las anteriores,
+selecciona el dataset `orders` y escribe:
+```
+ordenes por vendedor
+```
+
+Da clic en aceptar y ajusta el tamaño
+
+7. Crea la última visualización, ubicala al lado de la anterior, selecciona el dataset `opportunities` y escribe
+```
+grafica de oportunidades por fase
+```
+Da clic en aceptar y ajusta el tamaño
+
+8. Si quieres personalizar algún gráfico, solo debes seleccionarlo y modificar las opciones que te aparecen en el panel de la izquierda.
+![dash12](img/dash12.png)
+
+9. Cuando ya el tablero esté listo, solo debes dar clic en la parte superior derecha y publicarlo
+![dash13](img/dash13.png)
+
+🎉 Felicitaciones!!! Has creado tu primer dashboard!
+
 ---
 
 ### 🔹 AI Gen: metadatos y tableros inteligentes
